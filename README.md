@@ -1,4 +1,4 @@
-# aalu
+# AALU
 Processing sketches for terrain/landscape interactive apps.
 Drafted for AA LU grad programme 2017-2019.
 

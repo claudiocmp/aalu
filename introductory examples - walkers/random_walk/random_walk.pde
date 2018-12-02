@@ -1,9 +1,10 @@
 /**
- * Random walker class
+ * Introduction to processing / OOP
  * 
- * Re-coded from D. Shiffmann's Nature of Code
+ * by Claudio Campanile, 2017
  *
  */
+ 
 
 
 // declare one Walker, call it jack

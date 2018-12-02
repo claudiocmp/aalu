@@ -1,24 +1,34 @@
+/**
+ * Random walker class
+ * 
+ * Re-coded from D. Shiffmann's Nature of Code
+ *
+ */
+ 
+ 
 class Walker {
 
   int x;
   int y;
 
-  int d = 5;
+  int d = 10;
 
   Walker(int _x, int _y) {
-    x = _x;  
-    y = _y;
+    this.x = _x;  
+    this.y = _y;
   }
 
   void visualise() {
-    // //point
+    pushStyle();
+    
     //stroke(255, 210, 180);
     //point(x, y);
-
-    //ellipse
-    fill(255, 210, 180);
+    
+    noStroke();
+    fill(red_quantity, green_quantity, blue_quantity);
     ellipseMode(CENTER);
     ellipse(x, y, d, d);
+    popStyle();
   }
 
   void step() {

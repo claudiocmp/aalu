@@ -1,6 +1,5 @@
 # aalu
 Processing sketches for terrain/landscape interactive apps.
-
-Draft for AA LU grad programme 2017-2019.
+Drafted for AA LU grad programme 2017-2019.
 
 ![](https://github.com/claudiocmp/aalu/raw/master/terrain_apps%20examples/_resources/app_example.png)

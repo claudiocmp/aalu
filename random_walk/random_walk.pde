@@ -1,3 +1,11 @@
+/**
+ * Random walker class
+ * 
+ * Re-coded from D. Shiffmann's Nature of Code
+ *
+ */
+
+
 // declare one Walker, call it jack
 Walker jack;
 

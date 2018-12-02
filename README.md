@@ -1,6 +1,6 @@
 # AALU
 Processing sketches for terrain/landscape interactive apps.
-Drafted for AA LU grad programme 2017-2019.
+Drafted for [AA LU grad programme](http://landscapeurbanism.aaschool.ac.uk/) 2017-2019.
 
 Sample sketches to import, visualise and interact with rasterised terrain data (DEM + data). Based on [Peasycam, ControlP5, HE_Mesh] libraries.
 

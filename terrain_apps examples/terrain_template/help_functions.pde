@@ -1,8 +1,8 @@
 // Function that calculates the coordinates on the floor surface corresponding to the screen coordinates
 PVector getUnProjectedPointOnFloor(float screen_x, float screen_y, PVector floorPosition, PVector floorDirection) {
 
-  PVector f = floorPosition.get(); // Position of the floor
-  PVector n = floorDirection.get(); // The direction of the floor ( normal vector )
+  PVector f = floorPosition.copy(); // Position of the floor
+  PVector n = floorDirection.copy(); // The direction of the floor ( normal vector )
   PVector w = unProject(screen_x, screen_y, -1.0); // 3 -dimensional coordinate corresponding to a point on the screen
   PVector e = getEyePosition(); // Viewpoint position
 
